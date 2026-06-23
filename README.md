@@ -84,13 +84,15 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
 - [Vulnerable MCP Servers Lab](https://github.com/appsecco/vulnerable-mcp-servers-lab)：一套特意设置成存在安全漏洞、用于学习渗透测试的 MCP 服务器集群。
 - [AI-Red-Teaming-Playground-Labs](https://github.com/microsoft/AI-Red-Teaming-Playground-Labs)：Microsoft 项目，可开展人工智能红蓝对抗培训的人工智能红队演练实验环境，配套相关基础设施。
 - [Damn Vulnerable LLM Agent](https://github.com/ReversecLabs/damn-vulnerable-llm-agent)：LLM Agent 安全，聊天机器人教学靶场。
-- [benchmark-platform](https://github.com/wgpsec/benchmark-platform)：AI agent CTF 靶场竞赛平台。
+- [benchmark-platform](https://github.com/wgpsec/benchmark-platform)：AI Agent CTF 靶场竞赛平台。
 
 ### 提示词 _Prompts_
 
 - [prompts.chat](https://github.com/f/prompts.chat)：优质 ChatGPT 提示词库，可在社区分享、查找、收集各类 AI 提示词。项目免费开源，企业可自主部署私有化服务，数据隐私完全可控。
 - [awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)：ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。
 - [wonderful-prompts](https://github.com/langgptai/wonderful-prompts)：中文 prompt 精选，ChatGPT 使用指南，提升 ChatGPT 可玩性和可用性！
+- [system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks)：从 Anthropic 提取的系统提示 - Claude Code, Claude Design, Opus 4.8, Sonnet 4.6. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex, Google - Gemini - 3.5 Flash, 3.1 Pro, Antigravity, xAI - Grok, Cursor, Copilot, VS Code, Perplexity 等。
+- [CL4R1T4S](https://github.com/elder-plinius/CL4R1T4S)：完整提取自 OpenAI、Google、Anthropic、xAI、Perplexity、Cursor、Windsurf、Devin、Manus、Replit 等公司的系统提示、指南和工具。
 
 ### 编排框架 _Orchestration Frameworks_
 
@@ -234,6 +236,11 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
 - [buttercup](https://github.com/trailofbits/buttercup)：LLM 驱动的漏洞发现与漏洞修复。
 - [DeepAudit](https://github.com/lintsinghua/DeepAudit)：代码漏洞挖掘多智能体系统。已成功发现并获得 49 个 CVE 编号 和 6 个 GHSA 安全公告。
 
+#### 逆向与反编译 _Reverse Engineering & Decompilation_
+
+- [android-reverse-engineering-skill](https://github.com/SimoneAvogadro/android-reverse-engineering-skill)：Claude Code Skill，Android 反汇编与 API 提取。
+- [js-reverse-automation--skill](https://github.com/Fausto-404/js-reverse-automation--skill)：结合 chrome-devtools-mcp 的能力并加上 Skill 的规范，实现 JSRPC+Flask+autoDecoder 方案的前端 JS 逆向自动化分析，提升 JS 逆向的效率。
+
 #### CTF _Capture the Flag_
 
 - [Tsec-Hackathon](https://github.com/Yeti-791/Tsec-Hackathon)：腾讯云智能渗透黑客松。
@@ -246,6 +253,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
 - [mcp-for-security](https://github.com/cyproxio/mcp-for-security)：一套适配主流安全工具的模型上下文协议服务端合集，涵盖 SQLMap、FFUF、NMAP、Masscan 等多款常用工具，可将安全测试与渗透测试功能接入人工智能工作流。
 - [mcp-security-hub](https://github.com/FuzzingLabs/mcp-security-hub)：一套不断扩充的 MCP 服务器合集，可为人工智能助手集成攻击性安全工具，包含 Nmap、Ghidra、Nuclei、SQLMap、Hashcat 等多款工具。
 - [mcp-server](https://github.com/PortSwigger/mcp-server)：Burp Suite MCP 服务器。
+- [chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp)：用于代码编写代理的 Chrome DevTools 工具。
 
 ## 防御性安全 _Blue Teaming and Defensive Security_
 
